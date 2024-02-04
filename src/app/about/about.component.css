@@ -1,0 +1,33 @@
+section{
+background-color: #1ABC9C !important;
+color: white !important;
+}
+p{
+    position: relative;
+}
+p::after{
+    content: "";
+    position: absolute;
+    width: 80px;
+    height: 4px;
+    top: 10px;
+    left: 20%;
+    background-color: white;
+
+}
+p::before{
+    content: "";
+    position: absolute;
+    width: 80px;
+    height: 4px;
+    top: 10px;
+    right: 20%;
+    background-color: white;
+
+}
+
+
+
+
+
+

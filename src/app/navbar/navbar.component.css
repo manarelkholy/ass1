@@ -1,0 +1,9 @@
+nav{
+    background-color: #2C3E50 !important;
+}
+.test{
+    background-color: #1ABC9C;
+    border: 1px solid #1ABC9C;
+    border-radius: 10px;
+    padding: 5px;
+}

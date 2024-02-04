@@ -1,0 +1,49 @@
+
+.title{
+    /* background-color: #1ABC9C !important; */
+    color: #2C3E50 !important;
+    }
+p{
+    position: relative;
+}
+p::after{
+    content: "";
+    position: absolute;
+    width: 80px;
+    height: 4px;
+    top: 10px;
+    left: 40%;
+    background-color: #2C3E50;
+}
+p::before{
+    content: "";
+    position: absolute;
+    width: 80px;
+    height: 4px;
+    top: 10px;
+    right: 40%;
+    background-color:#2C3E50 ;
+}
+
+
+.layer{
+    position: absolute;
+    top: 0;
+    left: 7%;
+    bottom: 0;
+    right: 6%;
+    background-color: rgba(41, 176, 150, 0.9);
+    visibility: hidden;
+    transition: .3s visibility;
+}
+.layer i{
+    font-size: 100px !important;
+}
+.col-md-4:hover .layer{
+    cursor: pointer;
+    /* border-radius: 50%; */
+    /* background-color: black; */
+visibility: visible;
+}
+
+
